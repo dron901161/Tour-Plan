@@ -6,20 +6,26 @@
 		max-width: 700px
 	.logo
 		width: 132px
+	.user
+		&__name
+			margin-top: 1px
 	.navbar
 		&-top
 			padding-top: 30px
-			padding-bottom: 30px
-			&__search
-				margin-left: auto
+			padding-bottom: 29px
+		&__search
+			margin-left: 7%
 		&-menu
-			padding-top: 22px
-			padding-bottom: 22px
+			padding-top: 19px
+			padding-bottom: 23px
+			justify-content: space-around
 			&__menu-button
 				display: none
 			&__link
 				font-size: 12px
 				line-height: 15px
+				letter-spacing: 0
+				margin-left: 4px
 		.search
 			&__input
 				width: 340px
@@ -47,5 +53,17 @@
 				height: 1px
 				background-color: $text-color
 @media	(max-width: 576px)
+	.container
+		width: 95%
 	.logo
 		width: 99px
+@media (min-width: 320px) and (max-width: 480px)
+	.container
+		width: 88%
+	.navbar
+		&-top
+			padding-top: 24px
+	.menu
+		&-button
+			margin-top: 5px
+			margin-right: 1px

@@ -7,4 +7,8 @@ var mySwiper = new Swiper('.hotel-swiper', {
     nextEl: '.hotel-button--next',
     prevEl: '.hotel-button--prev',
   },
+  keyboard: {
+      enabled: true,
+      onlyInViewport: false,
+    },
 });

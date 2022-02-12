@@ -358,7 +358,7 @@ body {
 }
 
 img {
-  width: 100%;
+  max-width: 100%;
 }
 
 .navbar {
@@ -576,15 +576,15 @@ img {
 }
 
 .hotel-swiper {
-  width: 728px;
-  height: 450px;
+  width: 100%;
+  height: 100%;
   border-radius: 8px;
 }
 
 .hotel-slider {
   position: relative;
-  width: 100%;
-  height: 100%;
+  width: 728px;
+  height: 450px;
   border-radius: 8px;
   overflow: hidden;
   z-index: 30;
@@ -990,12 +990,11 @@ img {
   }
   .hotel-slider {
     height: 179px;
+    margin-bottom: 20px;
   }
-  .hotel-slide__image {
-    width: 100%;
-    height: 100%;
-    -o-object-fit: cover;
-       object-fit: cover;
+  .hotel-button {
+    width: 6px;
+    height: 6px;
   }
 }
 /*# sourceMappingURL=style.css.map */

@@ -10,7 +10,7 @@
 				height: 100%
 				object-fit: cover
 @media	(max-width:	992px)
-	.container
+	.container,.newsletter-wrapper
 		max-width: 700px
 	.logo
 		width: 132px
@@ -102,11 +102,22 @@
 		&-cart
 			margin-top: 25px
 			width: 100%
+	.newsletter-wrapper
+		flex-direction: column
+		align-items: flex-start
+		max-width: 576px
+		width: 92%
 @media	(max-width: 576px)
 	.container
 		width: 95%
 	.logo
 		width: 99px
+	.newsletter
+		padding: 76px 0 83px 0
+		&__title
+			margin-bottom: 37px
+	.subscribe
+		width: 100%
 @media (min-width: 320px) and (max-width: 480px)
 	.container
 		width: 88%
@@ -124,3 +135,13 @@
 		&-button
 			width: 6px
 			height: 6px
+	.hotel
+		padding-bottom: 40px
+	.newsletter
+		&__title
+			margin-bottom: 37px
+			font-size: 20px
+		&__strong
+			font-size: 30px
+	.subscribe
+		width: 280px

@@ -13,7 +13,7 @@
 	<title>Best Tour Plan-Hotel Booking</title>
 </head>
 <body>
-	<header class="navbar">
+	<header class="navbar navbar--mobile_fixed">
 		<div class="container"> 
 			<div class="navbar-top">
 				<a href="#" class="logo">
@@ -22,14 +22,14 @@
 					class="logo__image">
 				</a>
 		
-				<form action="#" class="search navbar__search">
+				<form action="#" class="search navbar__search navbar__search--mobile_hidden">
 					<input type="text" class="search__input" placeholder="Search Location">
 					<button class="search__button">
 						<img src="img/search.svg" alt="Icon:search">
 					</button>
 				</form>
 
-				<a href="#" class="user navbar__user">
+				<a href="#" class="user navbar__user navbar__user--mobile_hidden">
 					<img src="img/user-avatar.jpg" 
 					alt="Nathan" 
 					class="user__avatar">
@@ -48,6 +48,19 @@
 		<div class="navbar-bottom">
 			<div class="container">
 					<ul class="navbar-menu">
+						<li class="navbar-menu__item navbar-menu__item--mobile_visible">
+							<a href="#" class="user navbar__user navbar__user--mobile_visible">
+							<img src="img/user-avatar.jpg" alt="Nathan" class="user__avatar">
+							<span class="user__name user__name--light">Nathan</span>
+						</a></li>
+						<li class="navbar-menu__item navbar-menu__item--mobile_visible">
+							<form action="#" class="search navbar__search navbar__search--mobile_visible">
+								<input type="text" class="search__input" placeholder="Search Location">
+								<button class="search__button">
+									<img src="img/search.svg" alt="Icon:search">
+								</button>
+							</form>
+						</li>
 						<li class="navbar-menu__items">
 							<a href="#" class="navbar-menu__link">All Deals</a>
 						</li>
@@ -270,7 +283,7 @@
 				<h2 class="activities__title">Other Activities</h2>
 				<div class="activities-wrapper">
 					<div class="card activities__card">
-						<img src="/img/activities-1.jpg" 
+						<img src="img/activities-1.jpg" 
 						alt="The curious corner of chamarel" 
 						class="card__image">
 						<h3 class="card__title">The curious corner of&nbsp;chamarel</h3>
@@ -278,7 +291,7 @@
 					</div>
 					<!---card-->
 					<div class="card activities__card">
-						<img src="/img/activities-2.jpg" 
+						<img src="img/activities-2.jpg" 
 						alt="Gymkhana club golf course" 
 						class="card__image">
 						<h3 class="card__title">Gymkhana club golf course</h3>
@@ -286,7 +299,7 @@
 					</div>
 					<!---card-->
 					<div class="card activities__card">
-						<img src="/img/activities-3.jpg" 
+						<img src="img/activities-3.jpg" 
 						alt="Tamarind falls hiking trip - full day" 
 						class="card__image">
 						<h3 class="card__title">Tamarind falls hiking trip&nbsp;-&nbsp;full day</h3>
@@ -294,7 +307,7 @@
 					</div>
 					<!---card-->
 					<div class="card activities__card">
-						<img src="/img/activities-4.jpg" 
+						<img src="img/activities-4.jpg" 
 						alt="The blue marine discovery quest" 
 						class="card__image">
 						<h3 class="card__title">The blue marine discovery quest</h3>
